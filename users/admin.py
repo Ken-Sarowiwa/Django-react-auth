@@ -9,7 +9,7 @@ class UserAdmin(UserAdmin):
     add_form = UserCreationForm
     form = UserChangeForm
     model = User
-    list_display = ['email', 'username', 'is_staff']
+    list_display = ['email', 'username','is_active', 'date_joined']
     list_filter = ['is_staff', 'is_superuser']
     search_fields = ['email', 'username']
     ordering = ['email']

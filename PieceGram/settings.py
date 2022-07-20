@@ -96,6 +96,7 @@ REST_FRAMEWORK = {
 
 ROOT_URLCONF = 'PieceGram.urls'
 
+
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
